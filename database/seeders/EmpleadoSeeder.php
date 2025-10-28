@@ -23,7 +23,7 @@ class EmpleadoSeeder extends Seeder
              Empleado::create([
             'nombre'=>'Raul',
             'apellido'=>'Perez',
-            'correo'=>'raul@gmail.com',
+            'correo'=>'r@gmail.com',
             'salario'=>4500,
             ]);
 
