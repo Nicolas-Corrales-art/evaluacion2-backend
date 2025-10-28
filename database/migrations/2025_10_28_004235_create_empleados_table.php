@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Schema;
 return new class extends Migration
 {
     /**
-     * Ejecuta la migración.
+     * Ejecuta la migración. creamos la tabla
      */
     public function up(): void
     {

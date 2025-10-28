@@ -9,7 +9,7 @@ use App\Models\Empleado;
 class EmpleadoSeeder extends Seeder
 {
     /**
-     * Run the database seeds.
+     * Run the database seeds. creamos 10 ejemplos
      */
     public function run(): void
     {  
