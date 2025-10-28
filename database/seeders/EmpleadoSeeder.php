@@ -12,7 +12,7 @@ class EmpleadoSeeder extends Seeder
      * Run the database seeds.
      */
     public function run(): void
-    {
+    {  
             Empleado::create([
             'nombre'=>'Nicolas',
             'apellido'=>'Corrales',
@@ -23,15 +23,15 @@ class EmpleadoSeeder extends Seeder
              Empleado::create([
             'nombre'=>'Raul',
             'apellido'=>'Perez',
-            'correo'=>'r@gmail.com',
-            'salario'=>4500,
+            'correo'=>'rl@gmail.com',
+            'salario'=>45000,
             ]);
 
              Empleado::create([
             'nombre'=>'Micaela',
             'apellido'=>'Flores',
             'correo'=>'micaela@gmail.com',
-            'salario'=>9500,
+            'salario'=>95000,
            ]);
               
 
@@ -39,46 +39,46 @@ class EmpleadoSeeder extends Seeder
             'nombre'=>'Raul',
             'apellido'=>'Flores',
             'correo'=>'raul@gmail.com',
-            'salario'=>8500,
+            'salario'=>85000,
            ]);
               
 
              Empleado::create([
             'nombre'=>'Carlos',
             'apellido'=>'Lopez',
-            'correo'=>'carlos@gmail.com',
-            'salario'=>3700,
+            'correo'=>'carlosm@gmail.com',
+            'salario'=>37000,
            ]);   
 
              Empleado::create([
             'nombre'=>'Alberto',
             'apellido'=>'Rojas',
             'correo'=>'alberto@gmail.com',
-            'salario'=>3506,
+            'salario'=>35060,
            ]);
                Empleado::create([
             'nombre'=>'Juan',
             'apellido'=>'Rojas',
             'correo'=>'juan@gmail.com',
-            'salario'=>6500,
+            'salario'=>65000,
            ]);
                Empleado::create([
             'nombre'=>'David',
             'apellido'=>'Rojas',
             'correo'=>'david@gmail.com',
-            'salario'=>500,
+            'salario'=>50000,
            ]);
                 Empleado::create([
             'nombre'=>'Erick',
             'apellido'=>'Rojas',
             'correo'=>'erick@gmail.com',
-            'salario'=>1500,
+            'salario'=>15000,
            ]);
                  Empleado::create([
             'nombre'=>'Angel',
             'apellido'=>'Rojas',
             'correo'=>'angel@gmail.com',
-            'salario'=>9500,
+            'salario'=>95000,
            ]);
 
 
